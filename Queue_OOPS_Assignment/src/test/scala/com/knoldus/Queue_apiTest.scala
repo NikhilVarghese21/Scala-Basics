@@ -24,7 +24,7 @@ class Queue_apiTest extends AnyFlatSpec {
     assert(actualResult != expectedResult)
   }
 
-  "the dequeue operation in DoubleQueue" should "be valid when Stack is empty" in {
+  "the dequeue operation in DoubleQueue" should "be valid when Queue is empty" in {
     val dequeueElement = new DoubleQueue()
     val actualResult = dequeueElement.dequeue()
     val expectedResult = "Queue is empty."
@@ -95,7 +95,7 @@ class Queue_apiTest extends AnyFlatSpec {
     assert(actualResult != expectedResult)
   }
 
-  "the dequeue operation in SquareQueue" should "be valid when Stack is empty" in {
+  "the dequeue operation in SquareQueue" should "be valid when Queue is empty" in {
     val dequeueElement = new SquareQueue()
     val actualResult = dequeueElement.dequeue()
     val expectedResult = "Queue is empty."
